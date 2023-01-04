@@ -13,8 +13,8 @@ function submitForm(e) {
     alert("Error code: Cargo 200");
   } else {
     console.log(user);
+    LOGIN_FORM.reset();
   }
-  LOGIN_FORM.reset();
 }
 
 LOGIN_FORM.addEventListener("submit", submitForm);
